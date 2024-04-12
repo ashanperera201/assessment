@@ -1,0 +1,18 @@
+.filter-panel-container {
+    border: 2px solid black;
+    height: 50vh;
+    padding: 1rem;
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5px;
+        padding-left: 5px;
+
+        span {
+            font-weight: 600;
+        }
+    }
+}

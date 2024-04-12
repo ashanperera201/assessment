@@ -1,0 +1,17 @@
+.dropdown-container {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.clear-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
